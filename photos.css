@@ -1,0 +1,85 @@
+
+img {
+	width: 30%;
+	float: left;
+	/*float takes off white space between photos*/
+	margin: 1.66%;
+	border-radius: 5px;
+	opacity: `;
+
+}
+
+img:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+p {
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: 100;
+	margin: 1.66% 1.66% 0% 1.66%;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 60px;
+	
+}
+
+span {
+	margin-right: 30px;
+	text-align: center;
+	height: 60px;
+	width: 60px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 20px;
+
+}
+
+h4 {
+
+	padding: 0.66%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 90%;
+	margin: 0% 6%;
+	transition: all 1.3s;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade-in-photos {
+	opacity: 1;
+	animation-name: fadeInPhotos;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInPhotos {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
